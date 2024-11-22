@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Design</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .top-bar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            background-color: #333;
+        }
+
+        .top-bar img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .boost {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .coin-count {
+            position: absolute;
+            top: 60px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+
+        .coin-count img {
+            width: 30px;
+            height: 30px;
+            margin-right: 5px;
+        }
+
+        .circle {
+            background: #444;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .circle img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .limit {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            background-color: #333;
+        }
+
+        .footer img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        button {
+            font-size: 18px;
+            color: white;
+            background-color: #444;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <img src="https://via.placeholder.com/40" alt="User Profile">
+        <div class="boost">🚀</div>
+    </div>
+
+    <!-- Coin Count -->
+    <div class="coin-count">
+        <img src="https://via.placeholder.com/30" alt="Coin Icon">
+        <span>00</span>
+    </div>
+
+    <!-- Center Circle with Image -->
+    <div class="circle">
+        <img src="https://via.placeholder.com/150" alt="Child">
+    </div>
+
+    <!-- Coin Limit -->
+    <div class="limit">1000/1000</div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <img src="https://via.placeholder.com/40" alt="Home Icon">
+        <img src="https://via.placeholder.com/40" alt="Game Icon">
+    </div>
+</body>
+</html>
